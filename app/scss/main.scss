@@ -1,0 +1,47 @@
+
+#container{
+  margin-top:8rem;
+  p{
+    margin-left: 4rem;
+margin-right: 4rem;
+padding-top: 3rem;
+  }
+}
+.confirm{
+  margin-left: 11rem;
+  background: green;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  outline:none;
+}
+.cancel{
+  border:none;
+  background:white;
+  outline:none;
+}
+
+.modal-background{
+  background: rgba(0,0,0,0.3);
+  position:relative;
+}
+.modal{
+  padding-top:2rem;
+  padding-bottom:2rem;
+  position: absolute;
+background: white;
+top: 20%;
+left: 18%;
+h3{
+  padding-left:1rem;
+  padding-right:1rem;
+  text-align:center;
+}
+}
+span{
+  float: right;
+margin-right: 6rem;
+}
+input{
+  float:right;
+}
